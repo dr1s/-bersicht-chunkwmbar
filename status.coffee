@@ -8,7 +8,7 @@ render: (output) ->
   """
 
 style: """
-  right: 18px
+  right: 28px
   top: 2px
   height: 13
   .wifi
@@ -37,13 +37,13 @@ batteryStatus: (battery, state) ->
 
   batnum = parseInt(battery)
   if state == 'AC' and batnum >= 90
-    return "<span class='charging white sicon'></span><span class='green icon '></span>&nbsp;<span class='white'>#{batnum}%</span>"
+    return "<span class='charging yellow outline_icon sicon'></span><span class='green icon '></span>&nbsp;<span class='white'>#{batnum}%</span>"
   else if state == 'AC' and batnum >= 50 and batnum < 90
-    return "<span class='charging white icon'></span><span class='green icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
+    return "<span class='charging yellow outline_icon icon'></span><span class='green icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
   else if state == 'AC' and batnum < 50 and batnum >= 15
-    return "<span class='charging white icon'></span><span class='yellow icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
+    return "<span class='charging yellow outline_icon icon'></span><span class='yellow icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
   else if state == 'AC' and batnum < 15
-    return "<span class='charging white icon'></span><span class='red icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
+    return "<span class='charging yellow icon'></span><span class='red icon'></span>&nbsp;<span class='white'>#{batnum}%</span>"
   else if batnum >= 90
     return "<span class='green icon'>&nbsp</span>&nbsp;<span class='white'>#{batnum}%</span>"
   else if batnum >= 50 and batnum < 90

@@ -5,14 +5,14 @@ refreshFrequency: 500 # ms
 
 render: (output) ->
   """
-    <link rel="stylesheet" type="text/css" href="./assets/colors.css">
     <link rel="stylesheet" type="text/css" href="./assets/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="./assets/colors.css">
     <div class="kwmmode"></div>
   """
 
 style: """
     -webkit-font-smoothing: antialiased
-    left: 15px
+    left: 28px
     top: -2px
     //width: 850px
     width: 100%
@@ -20,7 +20,7 @@ style: """
     margin: 0 auto
     margin-top: 6px
     font: 14px FontAwesome
-    color: #a5a5a5
+    //color: #a5a5a5
     font-weight: 700
     cursor: pointer;
     .list {
@@ -35,8 +35,8 @@ style: """
     }
 
     .active {
-        background: #a5a5a5
-        color: #282a36
+        background: #ABB2BF
+        color: #1E2127
     }
 """
 

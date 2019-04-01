@@ -1,66 +1,66 @@
 table, span {
-    color: #876769;
+    color: #56B6C2;
     font: 12px "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
     font-weight: 600;
     -webkit-font-smoothing: antialiased;
 }
 .white {
-    color: #a5a5a5;
+    color: #ABB2BF;
 }
 
 .black {
-  color: #292b2e;
+  color: #1E2127;
 }
 
 .background {
-    background-color: #292b2e;
+    background-color: #1E2127;
 }
 
 .red {
-    color: #e0211d;
+    color: #E06C75;
 }
 
 .purple {
-    color: #5d4d7a;
+    color: #C678DD;
 }
 
 .orange {
-    color: #dc752f;
+    color: #daaa78;
 }
 .orangebg {
-    background: #dc752f;
+    background: #daaa78;
     color: #292b2e;
 }
 
 .yellow {
-    color: #b1951d;
+    color: #D19A66;
 }
 
 .yellowbg {
-    background: #b1951d;
+    background: #D19A66;
     color: #292b2e;
 }
 
 .green {
-    color: #67b11d;
+    color: #98C379;
 }
 
 .greenbg {
-    background: #67b11d;
+    background: #98C379;
     color: #292b2e;
 }
 
 .cyan {
-    color: #2d9574;
+    color: #56B6C2;
 }
 
 .cyanbg {
-    background: #2d9574;
+    background: #56B6C2;
     color: #292b2e;
 }
 
 .blue {
-    color: #4f97d7;
+    color: #61AFEF;
 }
 
 .teal {
@@ -82,11 +82,15 @@ table, span {
 }
 
 .grey {
-    color: #b3b9be;
+    color: #3A3F4B;
 }
 
 .greybg {
-  background: #999999;
+  background: #1E2127;
+}
+
+.outline_icon {
+  text-shadow: 0px 0px 2px black;
 }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) {
@@ -94,7 +98,7 @@ table, span {
       overflow: hidden;
        width: 140px;
       -webkit-appearance: none;
-      background-color: #606060;
+      background-color: #282C34;
     }
 
     input[type='range']::-webkit-slider-thumb {
