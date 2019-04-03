@@ -43,7 +43,7 @@ style: """
 update: (output, domEl) ->
     [mode, spaces, focused...] = output.split '@'
     spaces = @visual spaces
-    focused = @maxLength focused.join(""), 70
+    focused = @maxLength focused.join("@"), 70
 
     #display the html string
     $(domEl).find('.kwmmode').html("<span class='tilingMode icon'> </span>" +

@@ -7,12 +7,15 @@ render: (output) ->
 
 style: """
   background-color: #1E2127;
-  top: 0px;
+  top: -1px;
   right: 20px;
   left 20px;
   height: 25px
-  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.40);
+  //box-shadow: -1.5px 1px 2px 1px #56B6C2;
   z-index: -1
   border-style: solid
-  border-width: 0px 0.1px
+  border-width: 1px 1px
+  border-bottom-color: #56B6C2
+  border-left-color: #56B6C2
+  border-right-color: #56B6C2
 """
